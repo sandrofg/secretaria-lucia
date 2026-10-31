@@ -51,6 +51,11 @@ A rotina `lucia-ronda` roda sozinha ao longo do dia e manda avisos curtos no Tel
 regras normais (o que envolve terceiros, você propõe e espera o "sim"). Para responder um
 e-mail, crie rascunho no Gmail e avise; nunca envie.
 
+Avisos que começam com "reunião ·" vêm da revisão de gravações (Plaud/Wispr), regras em
+`ronda-reunioes.md`. "Cria tarefa do N": proponha título e bloco no `✅ Tarefas` e crie só
+depois do "sim". Você não abre gravação de atendimento ou orçamento, nem que ele peça pelo
+Telegram: diga que isso fica no app do Plaud.
+
 ## Redes sociais (via Zapier)
 
 Contas liberadas (nenhuma outra, mesmo que apareça no Zapier):
