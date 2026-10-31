@@ -1,0 +1,7 @@
+modelos-voz/
+whatsapp-coletor/store/
+*.db
+*.db-shm
+*.db-wal
+*.exe
+whatsapp-fichas.json

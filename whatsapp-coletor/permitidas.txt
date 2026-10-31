@@ -1,0 +1,5 @@
+# Conversas que a Lucia pode ler (uma por linha). So o numero, com DDI e DDD, sem espacos.
+# Ex.: 5543999990000   # Fulano (contador)
+# Para ver os numeros das conversas recentes: rode Listar-Conversas.bat
+120363188130583569   # Gestores IOA LONDRINA (grupo)
+120363393613034044   # Gerencia Central (grupo)

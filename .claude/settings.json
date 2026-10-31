@@ -1,0 +1,37 @@
+{
+  "enabledPlugins": {
+    "telegram@claude-plugins-official": true
+  },
+  "permissions": {
+    "allow": [
+      "mcp__plugin_telegram_telegram__reply",
+      "mcp__plugin_telegram_telegram__react",
+      "mcp__plugin_telegram_telegram__edit_message",
+      "mcp__plugin_telegram_telegram__download_attachment",
+      "Bash(.venv-voz/Scripts/python.exe transcrever.py:*)",
+      "PowerShell(& .venv-voz/Scripts/python.exe transcrever.py:*)",
+      "PowerShell(.venv-voz/Scripts/python.exe transcrever.py:*)",
+      "Read(~/.claude/channels/telegram/inbox/**)",
+      "Read(./MEMORIA.md)",
+      "Edit(./MEMORIA.md)",
+      "Read(./RONDA.md)",
+      "Read(./whatsapp-fichas.json)",
+      "Read(./posts-agendados.json)",
+      "Edit(./posts-agendados.json)",
+      "Write(G:/My Drive/Lucia-posts/**)",
+      "Bash(schtasks /run /tn \"Lucia publicador de posts\")",
+      "PowerShell(schtasks /run /tn \"Lucia publicador de posts\")",
+      "PowerShell(Copy-Item * 'G:/My Drive/Lucia-posts/*')",
+      "PowerShell(Copy-Item * \"G:/My Drive/Lucia-posts/*\")",
+      "Read(C:/Users/drsan/.claude/scheduled-tasks/grade.md)"
+    ],
+    "deny": [
+      "Read(./whatsapp-coletor/store/**)",
+      "Edit(./whatsapp-coletor/**)",
+      "Bash(*coletor.exe*)",
+      "Bash(*ler_whatsapp*)",
+      "PowerShell(*coletor.exe*)",
+      "PowerShell(*ler_whatsapp*)"
+    ]
+  }
+}
