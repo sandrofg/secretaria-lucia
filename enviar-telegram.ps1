@@ -1,4 +1,4 @@
-# Envia uma mensagem da Lucia para o Sandro no Telegram (canal de saida das rotinas).
+# Envia uma mensagem do Argos para o Sandro no Telegram (canal de saida das rotinas).
 # Uso: powershell -File enviar-telegram.ps1 -Arquivo mensagem.txt   (ou -Texto "...")
 param([string]$Texto, [string]$Arquivo)
 $ErrorActionPreference = 'Stop'

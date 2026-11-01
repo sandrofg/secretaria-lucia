@@ -1,11 +1,11 @@
 """Publicador dos posts aprovados pelo Sandro.
 
-Roda a cada 10 min (Agendador de Tarefas do Windows) ou na hora, quando a Lúcia dispara a
+Roda a cada 10 min (Agendador de Tarefas do Windows) ou na hora, quando o Argos dispara a
 tarefa. Se não houver post vencido, sai sem chamar o Claude (custo zero). Se houver, chama
 `claude -p` com SÓ as ferramentas do Zapier/Drive liberadas e um roteiro fixo:
 compartilhar a foto da pasta Lucia-posts (só ver), publicar, tirar o link público, avisar.
 
-A Lúcia (que conversa com o Sandro) não torna nada público: ela só põe o post aprovado na
+O Argos (que conversa com o Sandro) não torna nada público: ele só põe o post aprovado na
 fila. Quem executa é este processo, que não recebe mensagens de ninguém.
 
 Fila: posts-agendados.json — lista de
