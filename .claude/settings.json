@@ -1,37 +1,25 @@
 {
-  "enabledPlugins": {
-    "telegram@claude-plugins-official": true
-  },
   "permissions": {
     "allow": [
-      "mcp__plugin_telegram_telegram__reply",
-      "mcp__plugin_telegram_telegram__react",
-      "mcp__plugin_telegram_telegram__edit_message",
-      "mcp__plugin_telegram_telegram__download_attachment",
-      "Bash(.venv-voz/Scripts/python.exe transcrever.py:*)",
-      "PowerShell(& .venv-voz/Scripts/python.exe transcrever.py:*)",
-      "PowerShell(.venv-voz/Scripts/python.exe transcrever.py:*)",
-      "Read(~/.claude/channels/telegram/inbox/**)",
       "Read(./MEMORIA.md)",
-      "Edit(./MEMORIA.md)",
+      "Read(./ronda-reunioes.md)",
       "Read(./RONDA.md)",
+      "Edit(./RONDA.md)",
       "Read(./whatsapp-fichas.json)",
-      "Read(./posts-agendados.json)",
-      "Edit(./posts-agendados.json)",
-      "Write(G:/My Drive/Lucia-posts/**)",
-      "Bash(schtasks /run /tn \"Lucia publicador de posts\")",
-      "PowerShell(schtasks /run /tn \"Lucia publicador de posts\")",
-      "PowerShell(Copy-Item * 'G:/My Drive/Lucia-posts/*')",
-      "PowerShell(Copy-Item * \"G:/My Drive/Lucia-posts/*\")",
-      "Read(~/.claude/scheduled-tasks/grade.md)"
+      "Edit(./whatsapp-fichas.json)",
+      "Write(./ronda-msg.txt)",
+      "Edit(./ronda-msg.txt)",
+      "Read(~/.claude/scheduled-tasks/grade.md)",
+      "Bash(python -I \"D:/Claude/Code/Secretaria/whatsapp-coletor/ler_whatsapp.py\")",
+      "PowerShell(python -I \"D:/Claude/Code/Secretaria/whatsapp-coletor/ler_whatsapp.py\")",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"D:\\Claude\\Code\\Secretaria\\enviar-telegram.ps1\" -Arquivo \"D:\\Claude\\Code\\Secretaria\\ronda-msg.txt\")",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File \"D:\\Claude\\Code\\Secretaria\\enviar-telegram.ps1\" -Arquivo \"D:\\Claude\\Code\\Secretaria\\ronda-msg.txt\")"
     ],
     "deny": [
       "Read(./whatsapp-coletor/store/**)",
       "Edit(./whatsapp-coletor/**)",
       "Bash(*coletor.exe*)",
-      "Bash(*ler_whatsapp*)",
-      "PowerShell(*coletor.exe*)",
-      "PowerShell(*ler_whatsapp*)"
+      "PowerShell(*coletor.exe*)"
     ]
   }
 }

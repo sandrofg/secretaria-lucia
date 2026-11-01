@@ -12,4 +12,4 @@ powershell -NoProfile -Command "Get-CimInstance Win32_Process | Where-Object { $
 timeout /t 2 >nul
 set "PATH=%USERPROFILE%\.bun\bin;%PATH%"
 for /f "usebackq tokens=1,* delims==" %%a in ("%USERPROFILE%\.claude\channels\lucia-token.env") do set "%%a=%%b"
-claude --settings "%~dp0.claude\settings.json" --channels plugin:telegram@claude-plugins-official
+claude --settings "%~dp0.claude\lucia.settings.json" --channels plugin:telegram@claude-plugins-official
