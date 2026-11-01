@@ -1,9 +1,9 @@
 @echo off
-title Secretaria Lucia (Telegram)
+title Argos (Telegram)
 cd /d "%~dp0"
 powershell -NoProfile -Command "if (Get-CimInstance Win32_Process | Where-Object { $_.Name -eq 'claude.exe' -and $_.CommandLine -match 'channels plugin:telegram' }) { exit 1 }"
 if errorlevel 1 (
-  echo A Lucia ja esta aberta em outra janela. Use aquela. Esta vai fechar.
+  echo O Argos ja esta aberto em outra janela. Use aquela. Esta vai fechar.
   timeout /t 6 >nul
   exit /b
 )
