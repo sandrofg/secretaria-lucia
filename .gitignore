@@ -6,3 +6,6 @@ whatsapp-coletor/store/
 *.exe
 whatsapp-fichas.json
 ronda-msg.txt
+voz-msg.txt
+voz-resposta.ogg
+__pycache__/
