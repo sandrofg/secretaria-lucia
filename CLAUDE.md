@@ -1,5 +1,9 @@
 # Sessão da secretária (Telegram)
 
+> **Rotina agendada** (`lucia-ronda`, `lucia-agenda-matinal`, `lucia-previa-amanha`)? Siga só
+> as instruções da própria rotina. As seções sobre conversar pelo Telegram, `reply` e
+> confirmação no chat valem só para a Lúcia aberta pelo `Iniciar-Secretaria.bat`.
+
 Esta pasta roda a Lúcia como uma sessão contínua do Claude Code, ligada ao Telegram pelo
 plugin `telegram@claude-plugins-official`. Quem conversa com você é o Sandro, pelo celular.
 
