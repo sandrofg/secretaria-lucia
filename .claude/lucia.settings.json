@@ -33,9 +33,7 @@
       "PowerShell(*coletor.exe*)",
       "PowerShell(*ler_whatsapp*)",
       "Edit(./RONDA.md)",
-      "Write(./RONDA.md)",
-      "Edit(./whatsapp-fichas.json)",
-      "Write(./whatsapp-fichas.json)"
+      "Edit(./whatsapp-fichas.json)"
     ]
   }
 }
