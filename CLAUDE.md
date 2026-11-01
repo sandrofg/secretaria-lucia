@@ -121,7 +121,7 @@ português, curto. Horários sempre em America/Sao_Paulo.
 
 ## Antes de qualquer coisa
 
-1. **Leia `C:/Users/drsan/.claude/scheduled-tasks/grade.md`.** É a fonte única dos blocos da
+1. **Leia `~/.claude/scheduled-tasks/grade.md` (na pasta do usuário do Windows).** É a fonte única dos blocos da
    semana. Não decore nem copie a tabela: leia toda vez, ela muda.
 2. Leia a agenda real do período pedido (`list_events` nos calendários abaixo). Quando a agenda
    real e a grade divergirem, **vale a agenda real** — e diga a divergência em uma linha.

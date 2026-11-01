@@ -23,7 +23,7 @@
       "PowerShell(schtasks /run /tn \"Lucia publicador de posts\")",
       "PowerShell(Copy-Item * 'G:/My Drive/Lucia-posts/*')",
       "PowerShell(Copy-Item * \"G:/My Drive/Lucia-posts/*\")",
-      "Read(C:/Users/drsan/.claude/scheduled-tasks/grade.md)"
+      "Read(~/.claude/scheduled-tasks/grade.md)"
     ],
     "deny": [
       "Read(./whatsapp-coletor/store/**)",
