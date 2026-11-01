@@ -23,7 +23,11 @@
       "PowerShell(schtasks /run /tn \"Lucia publicador de posts\")",
       "PowerShell(Copy-Item * 'G:/My Drive/Lucia-posts/*')",
       "PowerShell(Copy-Item * \"G:/My Drive/Lucia-posts/*\")",
-      "Read(~/.claude/scheduled-tasks/grade.md)"
+      "Read(~/.claude/scheduled-tasks/grade.md)",
+      "Edit(./voz-msg.txt)",
+      "Bash(.venv-voz/Scripts/python.exe falar.py)",
+      "PowerShell(.venv-voz/Scripts/python.exe falar.py)",
+      "PowerShell(& .venv-voz/Scripts/python.exe falar.py)"
     ],
     "deny": [
       "Read(./whatsapp-coletor/store/**)",
