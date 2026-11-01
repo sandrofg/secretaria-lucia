@@ -15,6 +15,7 @@ Fila: posts-agendados.json — lista de
 import json
 import os
 import re
+import shutil
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -23,7 +24,9 @@ PASTA = Path(__file__).resolve().parent
 FILA = PASTA / "posts-agendados.json"
 TRAVA = PASTA / "posts-agendados.lock"
 POSTS_DRIVE = Path("G:/My Drive/Lucia-posts")
-CLAUDE = Path(os.environ["APPDATA"]) / "npm/node_modules/@anthropic-ai/claude-code/bin/claude.exe"
+_CLAUDE_NPM = Path(os.environ.get("APPDATA", "")) / "npm/node_modules/@anthropic-ai/claude-code/bin/claude.exe"
+# Instalação via npm (PC antigo) ou nativa (~/.local/bin, Legion): usa a que existir.
+CLAUDE = _CLAUDE_NPM if _CLAUDE_NPM.exists() else Path(shutil.which("claude") or _CLAUDE_NPM)
 ENVIAR = PASTA / "enviar-telegram.ps1"
 FERRAMENTAS = ["mcp__claude_ai_Zapier__execute_zapier_write_action",
                "mcp__claude_ai_Zapier__inspect_zapier_actions",
